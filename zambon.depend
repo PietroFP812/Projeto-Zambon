@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1712099827 source:c:\temp\zambon\zambon\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
