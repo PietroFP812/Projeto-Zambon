@@ -5,7 +5,29 @@
 void main()
 {
     setlocale(LC_ALL,"");
-    printf("#####           Trabalho ORDENAC√O E T…CNICAS DE ARMAZENAMENTO           ######\n");
+    printf("                                             \n");
+    printf("                                             \n");
+    printf("                                             \n");
+    printf("    ((((((((((((((((((((((((((((((((((((.   \n");
+    printf("    ((((((((((((((((/**((((((((((((((**     \n");
+    printf("    ((((((((((((((*    (((((((((((((*  .    \n");
+    printf("    (((((((((((*      .((((((((((*.    (.   \n");
+    printf("    (((((((*.          ((((((((*   (( (.   \n");
+    printf("    (((((((*            ((((/*    (((( (.   \n");
+    printf("    (((((((* (((         (**    (((((( (.   \n");
+    printf("    (((((((((((.        (*,   (((((((( (.   \n");
+    printf("    ((((((((((((             .(((((((( (.   \n");
+    printf("    (*((((((((((*            (((((((((./    \n");
+    printf("    ( (((((((((((*(,        (((((((((*(*    \n");
+    printf("     ( (((((((((((*(       (((((((((((*.    \n");
+    printf("      (.((((((((((,      (((((((((( (*      \n");
+    printf("        (.(((((((((     ((((((((( (**       \n");
+    printf("          /(,.(((((((((((((((( ((*,         \n");
+    printf("              *((((     .(((/**             \n");
+    printf("        CENTRO UNIVERSIT√ÅRIO UNIFACVEST      \n");
+    printf("                                             \n");
+    printf("                                             \n");
+    printf("#####           Trabalho ORDENAC√ÉO E T√âCNICAS DE ARMAZENAMENTO           ######\n");
     printf("  Alunos: Eduardo de Quadra, Gustavo Mello, Pietro Fiorelli e Wallan Gabriel   \n");
     printf("#############################  Turma: 0103N  ##################################\n");
     printf("###############################################################################\n");
@@ -14,7 +36,7 @@ void main()
     printf("#####                                                                         #\n");
     printf("# 2 - Remover Elemento do Final                                               #\n");
     printf("#####                                                                         #\n");
-    printf("# 3 - Consultar Elemento Pela PosiÁ„o                                         #\n");
+    printf("# 3 - Consultar Elemento Pela Posi√ß√£o                                         #\n");
     printf("#####                                                                         #\n");
     printf("# 4 - Exibir Tamanho da Lista                                                 #\n");
     printf("# 5 - Sair                                                                    #\n");
