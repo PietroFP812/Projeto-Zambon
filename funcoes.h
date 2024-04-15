@@ -9,7 +9,7 @@ struct aluno{
 };
 
 typedef struct lista Lista;
-
+void menu();
 Lista* cria_lista();
 void liberar_lista(Lista* li);
 int tam_lista(Lista* li);
