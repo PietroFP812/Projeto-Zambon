@@ -1,13 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-#include "funcoes.h"
 #include <locale.h>
+#include "funcoes.h"
 
 
 int main()
 {
     setlocale(LC_ALL, "Portuguese Brasil");
+
+    Lista* li = cria_lista();
+    aluno* dados_aluno;
+    liberar_lista(li);
+    int x = tam_lista(li);
+    x = lista_cheia(li);
+    x = lista_vazia(li);
+    int insere = insere_lista_final(li, dados_aluno);
+    insere = insere_lista_inicio(li, dados_aluno);
+    insere = insere_lista_ordenada(li, dados_aluno);
+    imprime_lista(li);
+
+
 
     menu();
 
