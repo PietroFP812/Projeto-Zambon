@@ -4,12 +4,22 @@
 	<stdlib.h>
 	<locale.h>
 
-1712541206 source:c:\users\usuario\desktop\projetos facul\projeto-zambon\main.c
+1713140130 source:c:\users\usuario\desktop\projetos facul\projeto-zambon\main.c
 	<stdio.h>
 	<stdlib.h>
 	<stdbool.h>
 	"funcoes.h"
 	<locale.h>
 
-1712540141 c:\users\usuario\desktop\projetos facul\projeto-zambon\funcoes.h
+1713140504 c:\users\usuario\desktop\projetos facul\projeto-zambon\funcoes.h
+
+1713140054 source:c:\users\usuario\desktop\projetos facul\projeto-zambon\funcoes.c
+	<stdlib.h>
+	<stdio.h>
+	"funcoes.h"
+
+1713140054 c:\users\usuario\desktop\projetos facul\projeto-zambon\funcoes.c
+	<stdlib.h>
+	<stdio.h>
+	"funcoes.h"
 

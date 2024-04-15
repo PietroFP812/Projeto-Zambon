@@ -1,14 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include<stdbool.h>
-#define MAX 10
+#include <stdbool.h>
 #include "funcoes.h"
 #include <locale.h>
 
 
 int main()
 {
-    setlocale(LC_ALL, "Portuguese_Brasil");
+    setlocale(LC_ALL, "Portuguese Brasil");
 
     menu();
 
@@ -18,6 +17,7 @@ void menu() {
 
         int valor;
         bool repeat = true;
+
 
         do{
             printf("                                             \n");
@@ -39,10 +39,10 @@ void menu() {
             printf("                         (.(((((((((     ((((((((( (**       \n");
             printf("                           /(,.(((((((((((((((( ((*,         \n");
             printf("                               *((((     .(((/**             \n");
-            printf("                         CENTRO UNIVERSITÁRIO UNIFACVEST      \n");
+            printf("                         CENTRO UNIVERSITARIO UNIFACVEST      \n");
             printf("                                             \n");
             printf("                                             \n");
-            printf("#####          Trabalho ORDENACÃO E TÉCNICAS DE ARMAZENAMENTO          ######\n");
+            printf("#####          Trabalho ORDENACAO E TECNICAS DE ARMAZENAMENTO          ######\n");
             printf("  Alunos: Eduardo de Quadra, Gustavo Mello, Pietro Fiorelli e Wallan Gabriel   \n");
             printf("#----------------------------  Turma: 0103N  ---------------------------------#\n");
             printf("#-----------------------------------------------------------------------------#\n");
@@ -50,7 +50,7 @@ void menu() {
             printf("#####                                                                         #\n");
             printf("#                       2 - Remover Elemento do Final                         #\n");
             printf("#####                                                                         #\n");
-            printf("#                       3 - Consultar Elemento Pela Posição                 #\n");
+            printf("#                       3 - Consultar Elemento Pela Posicao                   #\n");
             printf("#####                                                                         #\n");
             printf("#                       4 - Exibir Tamanho da Lista                           #\n");
             printf("#####                                                                         #\n");
@@ -60,13 +60,14 @@ void menu() {
 
             int valor;
 
-            printf("Escolha a ação: \n");
+            printf("Escolha a acao: \n");
             scanf("%d", &valor);
 
             switch(valor)
                 {
                     case 1:
                         printf("Inserir elemento - desenvolver\n");
+
                         break;
 
                     case 2:
@@ -79,9 +80,10 @@ void menu() {
 
                     case 4:
                         printf("Tamanho da lista - desenvolver\n");
+                        break;
 
                     case 5:
-                        repeat = false;
+
                         break;
 
 
