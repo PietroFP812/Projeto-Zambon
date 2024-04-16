@@ -83,33 +83,32 @@ int main()
                         break;
 
                     case 2:
+                        printf("Inserir Elemento no Inicio - DESENVOLVENDO!");
 
                         break;
 
                     case 3:
-
+                        printf("Inserir Elemento no Inicio - DESENVOLVENDO!");
                         break;
 
                     case 4:
                         remove_final_lista(li);
-
                         break;
 
                     case 5:
-
+                        printf("Inserir Elemento no Inicio - DESENVOLVENDO!");
                         break;
 
                     case 6:
                         remove_final_lista(li);
-
                         break;
 
                     case 7:
-
+                        printf("Inserir Elemento no Inicio - DESENVOLVENDO!");
                         break;
 
                     case 8:
-
+                        printf("Inserir Elemento no Inicio - DESENVOLVENDO!");
                         break;
 
                     case 9:

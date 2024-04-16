@@ -32,11 +32,11 @@ void insere_lista_final(Lista* li){
         printf("\nDigite o nome: ");
         scanf("%s", &li->dados[li->quantidade].nome);
         printf("\nDigite o valor da primeira nota: ");
-        scanf("%d",&li->dados[li->quantidade].n1);
+        scanf("%f",&li->dados[li->quantidade].n1);
         printf("\nDigite o valor da segunda nota: ");
-        scanf("%d",&li->dados[li->quantidade].n2);
+        scanf("%f",&li->dados[li->quantidade].n2);
         printf("\nDigite o valor da terceira nota:");
-        scanf("%d",&li->dados[li->quantidade].n3);
+        scanf("%f",&li->dados[li->quantidade].n3);
         li->quantidade++;
     }else{
         printf("Lista Cheia!\n");
@@ -71,7 +71,7 @@ void remove_final_lista(Lista* li){
     }else{
         printf("Lista Vazia!\n");
     }
-    li->quantidade = li->quantidade < 0 ? 0 : li->quantidade;
+    li->quantidade = li->quantidade < 0 ? 0 : li->quantidade; /*ternário*/
 }
 
 /*utilizado na operqação 9 -  apresenta os valores da lista*/
@@ -90,5 +90,3 @@ void imprime_lista(Lista* li){
             printf("Lista Vazia!\n");
          }
 }/*ok*/
-
-
