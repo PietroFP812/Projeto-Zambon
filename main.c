@@ -9,27 +9,16 @@ int main()
 {
     setlocale(LC_ALL, "Portuguese Brasil");
 
-    Lista* li = cria_lista();
-    aluno* dados_aluno;
-    liberar_lista(li);
-    int x = tam_lista(li);
-    x = lista_cheia(li);
-    x = lista_vazia(li);
-    int insere = insere_lista_final(li, dados_aluno);
+    Lista* li = NULL;
+    li = cria_lista();
+    int operacao;
+    int posicao;
+    /*int insere = insere_lista_final(li, dados_aluno);
     insere = insere_lista_inicio(li, dados_aluno);
-    insere = insere_lista_ordenada(li, dados_aluno);
-    imprime_lista(li);
+    insere = insere_lista_ordenada(li, dados_aluno);*/
 
 
-
-    menu();
-
-}
-
-void menu() {
-
-        int valor;
-        bool repeat = true;
+    bool repeat = true;
 
 
         do{
@@ -61,42 +50,79 @@ void menu() {
             printf("#-----------------------------------------------------------------------------#\n");
             printf("#                       1 - Inserir Elemento no Final                         #\n");
             printf("#####                                                                         #\n");
-            printf("#                       2 - Remover Elemento do Final                         #\n");
+            printf("#                       2 - Inserir Elemento no Inicio                        #\n");
             printf("#####                                                                         #\n");
-            printf("#                       3 - Consultar Elemento Pela Posicao                   #\n");
+            printf("#                       3 - Inserir Elemento Ordenado                         #\n");
             printf("#####                                                                         #\n");
-            printf("#                       4 - Exibir Tamanho da Lista                           #\n");
+            printf("#                       4 - Remover Elemento do Final                         #\n");
             printf("#####                                                                         #\n");
-            printf("#                       5 - Sair                                              #\n");
+            printf("#                       5 - Remover Elemento do Início                        #\n");
+            printf("#####                                                                         #\n");
+            printf("#                       6 - Remover Elemento                                  #\n");
+            printf("#####                                                                         #\n");
+            printf("#                       7 - Consultar Elemento pela posicao                   #\n");
+            printf("#####                                                                         #\n");
+            printf("#                       8 - Consultar Elemento pela Matricula                 #\n");
+            printf("#####                                                                         #\n");
+            printf("#                       9 - Exbir Lista                                       #\n");
+            printf("#####                                                                         #\n");
+            printf("#                       10 - Exibir Tamanho da Lista                          #\n");
+            printf("#####                                                                         #\n");
+            printf("#                       11 - Sair                                             #\n");
+            printf("#####                                                                         #\n");
             printf("#-----------------------------------------------------------------------------#\n");
             printf("#-----------------------------------------------------------------------------#\n");
-
-            int valor;
 
             printf("Escolha a acao: \n");
-            scanf("%d", &valor);
+            scanf("%d", &operacao);
 
-            switch(valor)
+            switch(operacao)
                 {
                     case 1:
-                        printf("Inserir elemento - desenvolver\n");
-
+                        insere_lista_final(li);
                         break;
 
                     case 2:
-                        printf("remover elemento do final - desenvolver\n");
+
                         break;
 
                     case 3:
-                        printf("Consultar elemento - desenvolver\n");
+
                         break;
 
                     case 4:
-                        printf("Tamanho da lista - desenvolver\n");
+                        remove_final_lista(li);
+
                         break;
 
                     case 5:
 
+                        break;
+
+                    case 6:
+                        remove_final_lista(li);
+
+                        break;
+
+                    case 7:
+
+                        break;
+
+                    case 8:
+
+                        break;
+
+                    case 9:
+                        imprime_lista(li);
+                        break;
+
+                    case 10:
+                        tam_lista(li);
+                        break;
+
+                    case 11:
+                        liberar_lista(li);
+                        repeat = false;
                         break;
 
 
@@ -106,4 +132,8 @@ void menu() {
                 }
             system("pause");
         }while (repeat);
+
+
+
 }
+
